@@ -5,7 +5,7 @@ import { AiFillPrinter, AiFillShop } from "react-icons/ai";
 import { BiLogoGmail } from "react-icons/bi";
 import { ImLocation2 } from "react-icons/im";
 import { HiMiniBuildingOffice2 } from "react-icons/hi2";
-import MapComponent from "@/components/contact/gmap";
+import MapComponent from "@/components/Contact/Gmap";
 
 export default function index() {
   return (
