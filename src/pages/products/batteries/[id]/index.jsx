@@ -4,7 +4,7 @@ import Image from "next/image";
 import batteryImg from "@/common/constants/battery";
 import { battery } from "@/common/productData/battery";
 import { useRouter } from "next/router";
-const index = () => {
+const Battery = () => {
 
   const router = useRouter();
   const { id } = router.query;
@@ -71,4 +71,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Battery;
